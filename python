@@ -1,0 +1,56 @@
+
+import pyautogui
+import time
+pyautogui.press("win")
+time.sleep(2)
+
+pyautogui.write("firefox")
+pyautogui.press("enter")
+time.sleep(2)
+
+pyautogui.write("http://www.google.com")
+
+pyautogui.press("enter")
+time.sleep(5)
+pyautogui.write("speed test copel by ookla")
+# pyautogui.press("enter")
+# pyautogui.write("")
+pyautogui.press("enter")
+time.sleep(3)
+for _ in range(23):
+    pyautogui.press("tab")
+
+pyautogui.hotkey("enter")
+time.sleep(10)
+
+
+pyautogui.hotkey("ctrl","t")
+pyautogui.write("https://open.spotify.com/intl-pt")
+
+pyautogui.press("enter")
+time.sleep(2)
+# pyautogui.write("")
+# pyautogui.press("tab")
+time.sleep(2)
+# pyautogui.write("")
+# pyautogui.press("enter")
+pyautogui.press("win")
+pyautogui.write("microsip")
+pyautogui.press("enter")
+time.sleep(2)
+pyautogui.press("win")
+pyautogui.write("whats")
+pyautogui.press("enter")
+time.sleep(2)
+pyautogui.press("win")
+time.sleep(2)
+pyautogui.write("wordpad")
+pyautogui.press("enter")
+
+time.sleep(2)
+pyautogui.hotkey("ctrl","n")
+for _ in range(27):
+    pyautogui.write("mono mono")
+#pyautogui.write("teste teste teste teste teste")
+pyautogui.press("enter")
+pyautogui.write("FIM DO TESTE DE PYTHON!!!")
